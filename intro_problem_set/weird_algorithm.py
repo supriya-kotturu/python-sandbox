@@ -15,7 +15,7 @@
 # INPUT: n int
 # OUTPUT: int[]
 
-def weirdAlgorithm(n):
+def weird_algorithm(n):
     sequence = [n]
 
     last = sequence[-1]
@@ -30,4 +30,4 @@ def weirdAlgorithm(n):
 
 
 num = int(input())
-print(' '.join(map(str, weirdAlgorithm(num))))
+print(' '.join(map(str, weird_algorithm(num))))

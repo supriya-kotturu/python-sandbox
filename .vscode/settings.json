@@ -2,6 +2,10 @@
     "cSpell.words": [
         "cmap",
         "edgecolor",
+        "figsize",
+        "imread",
+        "imshow",
+        "imwrite",
         "xlabel",
         "ylabel"
     ]

@@ -1,0 +1,16 @@
+{
+  "experiments": [
+    {
+      "name": "ResNet50_CIFAR10_PyTorchDDP",
+      "model": "resnet50",
+      "dataset": "cifar10",
+      "framework": "pytorch_ddp",
+      "batch_size": 16,
+      "epochs": 2,
+      "lr": 0.001,
+      "world_size": 1,
+      "max_batches_per_epoch": 15,
+      "max_test_batches": 3
+    }
+  ]
+}

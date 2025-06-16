@@ -1,0 +1,15 @@
+[
+  {
+    "framework": "pytorch_ddp",
+    "model_name": "resnet50",
+    "dataset_name": "cifar10",
+    "batch_size": 16,
+    "num_epochs": 2,
+    "world_size": 1,
+    "total_training_time": 8.837132215499878,
+    "avg_epoch_time": 2.9659175872802734,
+    "throughput_samples_per_sec": 3.6210842182346936,
+    "final_accuracy": 12.5,
+    "peak_memory_mb": 0
+  }
+]
